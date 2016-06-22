@@ -4,12 +4,22 @@
   </div>
 
   <nav class="section">
-    <div>
-      {% for my_page in site.pages %}
-        {% if my_page.title %}
-        <a href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a>
-        {% endif %}
-      {% endfor %}
-    </div>
+    <!-- <div> -->
+      <!-- {% for my_page in site.pages %} -->
+        <!-- {% if my_page.title %} -->
+        <!-- <a href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a> -->
+        <!-- {% endif %} -->
+      <!-- {% endfor %} -->
+    <!-- </div> -->
+    <a href="#">About</a>
+    <a href="#">Portfolio</a>
+    <a href="#">Blog</a>
+    <a href="#">Contact</a>
   </nav>
+
+  <div class="section">
+    <a href="#">Email</a>
+    <a href="#">Github</a>
+    <a href="#">Twitter</a>
+  </div>
 </header>
