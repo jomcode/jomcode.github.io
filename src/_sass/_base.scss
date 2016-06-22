@@ -7,3 +7,8 @@ body {
   display: flex;
   flex-direction: column;
 }
+
+// margin to make room for header
+body > div:first-of-type {
+  margin-top: 100px;
+}
