@@ -1,4 +1,30 @@
 .page-footer {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: flex-end;
+
+  padding: 0 2em 0 2em;
+  height: 70px;
+  border: none;
+
+  a {
+    text-decoration: none;
+
+    & + a {
+      margin-left: 1em;
+    }
+
+    &:hover {}
+    &:active {}
+    &:visited {}
+  }
+
+  .section {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+  }
 }
