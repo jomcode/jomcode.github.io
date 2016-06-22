@@ -1,0 +1,27 @@
+.page-header {
+  display: flex;
+  justify-content: space-between;
+
+  padding: 0.5em;
+  height: 70px;
+  border: none;
+
+  box-shadow: 0px 0px 5px -1px rgba(0, 0, 0, 0.6);
+
+  a {
+    text-decoration: none;
+
+    &:hover {}
+    &:active {}
+    &:visited {}
+  }
+
+  .section {
+    display: flex;
+    align-items: center;
+  }
+
+  .logo {
+    font-size: 20px;
+  }
+}
