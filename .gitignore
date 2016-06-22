@@ -16,6 +16,7 @@ _site
 dist/**/*.*
 !dist/.gitkeep
 public
+src/assets/js
 
 # Dependency directories
 /node_modules
