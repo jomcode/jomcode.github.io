@@ -1,23 +1,6 @@
 .page-header {
   position: fixed;
   width: 100%;
-  min-height: 60px;
 
   background-color: inherit;
-
-  a {
-    text-decoration: none;
-
-    & + a {
-      // margin-left: 1em;
-    }
-
-    &:hover {}
-    &:active {}
-    &:visited {}
-  }
-
-  .logo {
-    font-size: 20px;
-  }
 }

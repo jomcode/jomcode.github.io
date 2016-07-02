@@ -2,5 +2,4 @@
 require('../_sass/main.scss');
 
 (function() {
-
 }());
